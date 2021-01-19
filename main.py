@@ -24,7 +24,7 @@ def get_input(event):
 	if keypress == "exclam": keypress = "!"
 	if keypress == "period": keypress = "."
 	if keypress == "comma": keypress = ","
-
+	if keypress == "quotedbl": keypress = '"'
 	if keypress == sentence[counter]:
 		if counter == 0:
 			start_time = time.time()
